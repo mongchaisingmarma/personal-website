@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.color-highlight{
+    color: DeepPink;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dream-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ec5197, #EC4C76);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.center-align{
+    text-align: center;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.img-sec img{
+    width: 25%;
+    float: left;
+}
+#img-sec-one{
+    margin-left: 8%;
+}
+#img-sec-two{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#img-sec-three{
+    margin-right: 8%;
+}
+.text-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.up-text h6{
+    font-weight: normal;
+    color: darkgray;
+    margin-top: 0px;
+}
+.up-text h5{
+    font-weight: 500;
+}
+.down-text{
+    background-image: linear-gradient(45deg, #EC5197, #EC4C76);
+    height: 150px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.down-text p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.down-text h3{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+footer p{
+    text-align: center;
+}

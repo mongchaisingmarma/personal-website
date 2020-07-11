@@ -133,3 +133,14 @@ footer h6 {
   color: darkgray;
   padding-bottom: 100px;
 }
+
+.extra-area{
+    color: brown;
+    text-align: center;
+    background-color: chartreuse;
+    padding-top: 15px;
+}
+.extra-area:hover{
+    color: white;
+    background-color: black;
+}

@@ -1,111 +1,135 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
+* {
+  margin: 0px;
 }
-h1{
-    font-size: 50px;
+body {
+  font-family: "Poppins", sans-serif;
 }
-h2{
-    font-size: 40px;
+h1 {
+  font-size: 50px;
 }
-p{
-    color: dimgray;
-    text-align: justify;
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  color: dimgray;
+  text-align: justify;
+
+  padding-bottom: 30px;
+}
+.color-highlight {
+  color: DeepPink;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-top: 250px;
+  margin-left: 17%;
+}
+.half-width-img {
+  float: left;
+  margin-top: 202px;
+  margin-left: 120px;
+  width: 450px;
+}
+.half-width-img img {
+  width: 100%;
+}
+section {
+  height: 812px;
+}
+.top-area {
+  background-size: cover;
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+}
+.top-area h1{
     padding-bottom: 15px;
 }
-.color-highlight{
-    color: DeepPink;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ec5197, #ec4c76);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 6%;
-    padding-left: 3%;
+.biography-area {
+  background-size: cover;
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-.half-width img{
+.biography-area h2{
+    padding-bottom: 15px;
+}
+.latest-work-area {
+  height: 600px;
+  text-align: center;
+  background-size: cover;
+  background: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.latest-work-area h2 {
+  margin: 90px;
+  font-size: 40px;
+}
+.img-sec{
     width: 100%;
-    height: 100%;
 }
-.header-area{
-    background-image: url(images/header-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.img-sec img {
+  width: 26%;
+  margin-left: 30px;
 }
-.dream-area{
-    background-image: url(images/biography-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.footer-area {
+  text-align: center;
 }
-section{
-    height: 500px;
-    padding-bottom: 250px;
+.footer-area p {
+  text-align: center;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, #ec5197, #EC4C76);
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+.up-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.center-align{
-    text-align: center;
+.up-text h6 {
+  color: darkgray;
 }
-.latest-work-area{
-    background-image: url(images/latest-work-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
+.middle-text h3 {
+  margin-bottom: 40px;
 }
-.img-sec img{
-    width: 25%;
-    float: left;
+.down-text {
+  margin: 150px 300px 150px 350px;
+  background-image: linear-gradient(45deg, #ec4f8f, #ed4b72);
+  width: 450px;
+  padding: 55px 120px;
+  border-radius: 7px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 0;
+  background-position: left;
 }
-#img-sec-one{
-    margin-left: 8%;
+.down-text h6 {
+  padding-bottom: 20px;
 }
-#img-sec-two{
-    margin-left: 3%;
-    margin-right: 3%;
+.footer-area {
+  height: 600px;
+  background-size: cover;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  display: block;
+  padding-bottom: 50px;
+  background-position: left;
 }
-#img-sec-three{
-    margin-right: 8%;
-}
-.text-area{
-    background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-}
-.up-text h6{
-    font-weight: normal;
-    color: darkgray;
-    margin-top: 0px;
-}
-.up-text h5{
-    font-weight: 500;
-}
-.down-text{
-    background-image: linear-gradient(45deg, #EC5197, #EC4C76);
-    height: 150px;
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-radius: 10px;
-}
-.down-text p{
-    margin-top: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-.down-text h3{
-    margin-top: 0px;
-    padding-bottom: 0px;
-}
-footer p{
-    text-align: center;
+footer h6 {
+  text-align: center;
+  color: darkgray;
+  padding-bottom: 100px;
 }
